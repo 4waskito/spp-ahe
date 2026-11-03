@@ -104,7 +104,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 runSpacing: 6,
                 children: [
                   ActionChip(
-                    label: const Text('Wi-Fi Host (172.26.239.27)',
+                    label: const Text('Wi-Fi Host (192.168.1.4)',
                         style: TextStyle(fontSize: 11)),
                     onPressed: () {
                       urlController.text = AppConstants.defaultLanUrl;
