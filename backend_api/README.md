@@ -72,3 +72,4 @@ php spark serve --port 8081
 * `PUT    /api/admin/siswa/(:nis)` - Edit biodata siswa
 * `DELETE /api/admin/siswa/(:nis)` - Hapus akun siswa beserta relasinya
 * `GET    /api/admin/paket` - Data referensi paket bimbingan belajar
+
