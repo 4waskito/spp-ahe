@@ -14,11 +14,11 @@ class AppConstants {
   // 10.0.2.2 is Android Emulator loopback to Host PC
   // 192.168.1.4 is current host Wi-Fi IP for physical devices
   static const String defaultEmulatorUrl =
-      'http://10.0.2.2/pembayaran_spp_revisi/public/index.php/api';
+      'http://10.0.2.2/spp_api/public/index.php/api';
   static const String defaultLanUrl =
-      'http://192.168.1.4/pembayaran_spp_revisi/public/index.php/api';
+      'http://192.168.1.4/spp_api/public/index.php/api';
   static const String defaultLocalhostUrl =
-      'http://localhost/pembayaran_spp_revisi/public/index.php/api';
+      'http://localhost/spp_api/public/index.php/api';
 
   static String _currentBaseUrl = defaultLocalhostUrl;
 
